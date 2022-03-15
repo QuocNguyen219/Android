@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:gravity="center"
+        android:text="Đăng nhập hệ thống" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tài khoản: " />
+
+        <EditText
+            android:id="@+id/et_TK1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Không được để trống" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tài khoản: " />
+
+        <EditText
+            android:id="@+id/et_TK2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Không được để trống" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/chk_Luu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lưu thông tin"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_DangNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đăng nhập"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#20000000"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_Thoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Thoát"
+        android:textColor="@color/black"
+        android:backgroundTint="#20000000"/>
+
+
+</LinearLayout>
